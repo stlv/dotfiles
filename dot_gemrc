@@ -1,0 +1,6 @@
+gem:
+  --no-ri
+  --no-document
+
+sources:
+  - https://rubygems.org/
