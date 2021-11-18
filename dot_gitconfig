@@ -1,0 +1,24 @@
+[user]
+	name = Stanislav Schultz
+	email = i@stlv.sh
+	signingkey = 0xCEA4FA343B6FD387
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
+
+[core]
+	editor = nvim
+	autocrlf = input
+
+[push]
+	default = current
+
+[pull]
+	default = matching
+	rebase = true
+
+[commit]
+	gpgsign = true
