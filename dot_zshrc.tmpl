@@ -53,6 +53,8 @@ alias k=kubectl
 # usage: $ passs 20
 alias passs="base64 /dev/urandom | tr -dc 'a-zA-Z0-9' | head -c"
 
+alias gpg-learn="gpg-connect-agent \"scd serialno\" \"learn --force\" /bye"
+
 export GPG_TTY="$(tty)"
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 
