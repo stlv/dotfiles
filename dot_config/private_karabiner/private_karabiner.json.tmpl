@@ -172,7 +172,7 @@
             },
             "selected": true,
             "simple_modifications": [
-{{- if (eq .chezmoi.hostname "mba") }}
+{{- if or (eq .chezmoi.hostname "mba") (eq .chezmoi.hostname "mba.local") }}
                 {
                     "from": {
                         "key_code": "backslash"
